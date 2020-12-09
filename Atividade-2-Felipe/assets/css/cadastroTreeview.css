@@ -1,0 +1,89 @@
+﻿/* html principal da página */
+html {
+    overflow: hidden;
+}
+/* código css para treeview */
+#treeview {
+    font-size: 12px;
+    line-height: 25px;
+    color: #333;
+    margin-left: 15px;
+}
+/* filtro treeview */
+#filtroTreeview {
+    margin-top: 15px;
+}
+/* css para preload treeview */
+#preloadTreeview {
+    margin-left: 25px;
+    position:relative;
+    
+}
+/* css para controle de status de validador*/
+.status {
+    margin-left: 65px;
+}
+/* css confirmação do validador */
+.confirm {
+    padding-top: 1em;
+}
+/* css validado do validador */
+.valid {
+    color: green;
+}
+/* css invalidado do validador */
+.invalid {
+    color: red;
+}
+/* css informação do validador */
+.information {
+    color: #0fbeb3;
+}
+/* splliter horizontal */
+#painelCadastro {
+    width: 99.5%;
+    margin: 0 auto;
+    border: 1px solid silver;
+}
+/* splliter horizontal_1 */
+#painelCadastro_1 {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    border: 0px solid yellow;
+}
+/* splliter horizontal_2 */
+#painelCadastro_2 {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    border: 0px solid green;
+}
+/* css para tela de fundo de controle */
+#desabilitaPainel1, #desabilitaPainel2 {
+    visibility: hidden;
+    position: absolute;
+    padding: 0px;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(128, 128, 128, 0.2);
+    width: 100%;
+    z-index: 2;
+}
+/* css do radio button cpf ou cnpj*/
+::-ms-check {
+    color: #0aa89e;
+    background: white;
+    padding: 0.0em;
+}
+#preloadTreeview > span.CarregandoExibir {    
+    display:initial;               
+    position:absolute;
+    -moz-animation: spin-moz .7s infinite linear;
+    -webkit-animation: spin-webkit .7s infinite linear;
+    animation: spin .7s infinite linear;           
+}
